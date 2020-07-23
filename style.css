@@ -1,0 +1,148 @@
+*{
+	box-sizing:border-box;
+	 
+}
+header {
+	position:relative;
+	border:5px solid lightgreen; 
+	padding:20px;
+	margin: 0 0 10px 0; 
+	 
+}
+	h1::before,
+	h1::after {
+	position:absolute;
+	background-color:lightgreen;
+	color:white;
+	font-weight: normal;
+	font-size:20px;
+	 
+}
+	h1::before {
+	content:"<header>";
+	left:0;
+	top:0;
+} 
+ 
+    h1::after {
+    content:" </header>";
+	right:0;
+	bottom:0;
+} 
+ 
+nav ul {
+  position: relative;
+  list-style-type: none;
+  padding: 20px 20px 20px 60px;
+  border: 5px solid lightgreen;
+  margin: 0 0 10px 0; 
+  position: relative;
+}
+nav li {
+	 display: inline;
+}
+	nav ul::before,
+	nav ul::after {
+	position:absolute;
+	background-color:lightgreen;
+	color:white;
+	font-weight: normal;
+	font-size:20px;
+	 
+	 
+}
+	nav ul::before {
+	content:"<nav>";
+	left:0;
+	top:0;
+} 
+ 
+    nav ul::after {
+    content:" </nav>";
+	right:0;
+	bottom:0;
+} 
+
+
+aside {
+	position: relative;  
+	float:right;
+	width:25%;
+	border:5px solid lightgreen;
+}
+	aside ul::before,
+	aside ul::after {
+	position:absolute;
+	background-color:lightgreen;
+	color:white;
+	font-weight: normal;
+	font-size:20px;
+	 
+	 
+}
+	aside ul::before {
+	content:"<aside>";
+	left:0;
+	top:0;
+} 
+ 
+    aside ul::after {
+    content:" </aside>";
+	right:0;
+	bottom:0;
+} 
+main article {
+	position: relative;
+	width:74%;
+	padding:10px;
+	border: 5px solid lightgreen;
+	margin: 0 0 10px 0;
+
+}
+	article p::before,
+	article p::after {
+	background-color:lightgreen;
+	color:white;
+	font-weight: normal;
+	font-size:20px;
+	position:absolute;
+	 
+}
+	article p::before {
+	content:"<main>";
+	left:0;
+	top:0;
+} 
+ 
+    article p::after {
+    content:" </main>";
+	right:0;
+	bottom:0;
+} 
+
+ footer {
+ 	position:relative;
+ 	border:5px solid lightgreen;
+ 	padding:20px 20px 20px 30px;
+}
+    footer::before,
+	footer::after {
+	position:absolute;
+	background-color:lightgreen;
+	color:white;
+	font-weight: normal;
+	font-size:20px;
+	 
+	 
+}
+	footer::before {
+	content:"<footer>";
+	left:0;
+	top:0;
+} 
+ 
+    footer::after {
+    content:" </footer>";
+	right:0;
+	bottom:0;
+} 
